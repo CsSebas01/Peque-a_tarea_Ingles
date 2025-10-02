@@ -1,2 +1,2 @@
-# Peque-a_tarea_Ingles
+# Pequeña tarea de ingles
 Solo una tarea de inglés
