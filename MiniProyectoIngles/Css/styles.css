@@ -1,0 +1,55 @@
+/*
+    Author: SMEC
+    Project: Speaking Mini-Dialogue
+    Date: 2025
+    Description: Custom styles for the Speaking Mini-Dialogue web page
+*/
+body {
+    font-family: 'Quicksand', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa 0%, #b3e5fc 100%);
+    min-height: 100vh;
+}
+
+.dialogue-box {
+    border-radius: 18px;
+    padding: 16px 20px;
+    max-width: 90%;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin-left: 0;
+    margin-right: auto;
+    transition: background 0.3s;
+}
+
+.dialogue-box.sebastian {
+    background: #e3f2fd;
+    color: #1565c0;
+    border-left: 6px solid #42a5f5;
+}
+
+.dialogue-box.guillermo {
+    background: #b3e5fc;
+    color: #01579b;
+    border-left: 6px solid #0288d1;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.dialogue {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card {
+    border-radius: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
