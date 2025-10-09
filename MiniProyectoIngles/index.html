@@ -19,7 +19,37 @@ Description: A web page for practicing vocabulary through a mini-dialogue video 
     <link rel="stylesheet" href="Css/styles.css">
 </head>
 <body class="bg-light">
-    <div class="container py-5">
+    <!-- Alert Banner -->
+    <div class="alert alert-info alert-dismissible fade show text-center mb-0" role="alert">
+        <strong>Hey there!</strong> All English tasks are available by scrolling down the page 📚
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-4">
+        <div class="container">
+            <span class="navbar-brand text-white">English Tasks Collection</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#dialogue1">Mini-Dialogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#shadowing">Shadowing RD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#routine">Daily Routine</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Section: Mini-Dialogue -->
+    <div id="dialogue1" class="container py-5">
         <div class="text-center mb-4">
             <h1 class="display-5 fw-bold text-primary"><u>Speaking Mini-Dialogue</u></h1>
             <p class="lead">Practice your vocabulary from <span class="semibold">Unit 1</span></p>
@@ -36,7 +66,7 @@ Description: A web page for practicing vocabulary through a mini-dialogue video 
         </div>
         <div class="mb-4 text-center">
             <h2 class="h4 mb-3">Dialogue Audio</h2>
-            <audio class="rounded shadow" width="480" controls>
+            <audio class="rounded shadow" controls style="width: 480px;">
                 <source src="videos/audioIngles.mpeg" type="audio/mp4">
             </audio>
         </div>
@@ -71,8 +101,12 @@ Description: A web page for practicing vocabulary through a mini-dialogue video 
             </div>
         </div>
         <!--FIN del dialogo escrito-->
+    </div>
 
-        <div class="container py-5">
+    <hr class="border-primary border-3 opacity-75 mx-auto" style="width: 70%;">
+
+    <!-- Second Section: Shadowing -->
+    <div id="shadowing" class="container py-5">
         <div class="text-center mb-4">
             <h1 class="display-5 fw-bold text-primary"><u>SHADOWING RD</u></h1>
             <p class="lead">Practice your vocabulary from  <span class="semibold">Unit 2</span></p>
@@ -93,7 +127,6 @@ Description: A web page for practicing vocabulary through a mini-dialogue video 
             </audio>
         </div>
         <!--Todo lo que es el dialogo escrito-->
-
         <div class="card shadow-lg mb-4">
             <div class="card-body">
                 <h2 class="h4 text-primary mb-3">Dialogue</h2>
@@ -105,7 +138,6 @@ Description: A web page for practicing vocabulary through a mini-dialogue video 
                     <div class="dialogue-box guillermo mb-3">
                         <strong>Sebastian:</strong> System Software 1
                     </div>
-
                     <div class="dialogue-box sebastian mb-3">
                         <strong>Sebastian:</strong> 
                             A system software is any program that allows computers to perform basic
@@ -121,35 +153,64 @@ Description: A web page for practicing vocabulary through a mini-dialogue video 
                             peripherals work with the operating system. Sophisticated BIOS in the
                             firmware performs this function.
                     </div>
-                    
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--Footer de la pagina -->
-        <footer class="text-center text-muted mt-4">
-            <small>Made with ❤️ for English Class | 2025 | SMEC</small>
-        </footer>
+        <!--FIN del dialogo escrito-->
     </div>
+
+    <hr class="border-primary border-3 opacity-75 mx-auto" style="width: 70%;">
+
+    <!-- Third Section: Daily Routine -->
+    <div id="routine" class="container py-5">
+        <div class="text-center mb-4">
+            <h1 class="display-5 fw-bold text-primary"><u>MY DAILY ROUTINE</u></h1>
+            <p class="lead">Practice your vocabulary from  <span class="semibold">Unit 3</span></p>
+        </div>
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h3 class="h6 text-muted mb-2">Members:</h3>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item badge rounded-pill bg-info text-dark fs-6">Sebastian Escobar</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mb-4 text-center">
+            <h2 class="h4 mb-3">Dialogue Audio</h2>
+            <audio class="rounded shadow" width="480" controls>
+                <source src="videos/AudioIngles3.mp3" type="audio/mp3">
+                Your browser does not support the video tag.
+            </audio>
+        </div>
+        <div class="card shadow-lg mb-4">
+            <div class="card-body">
+                <h2 class="h4 text-primary mb-3">Dialogue</h2>
+                <h3 class="h6 text-secondary mb-4">Situation: Either a writing or a recorded speaking task, both individual or groupal as a conversation.</h3>
+                <div class="dialogue">
+                    <div class="dialogue-box sebastian mb-3">
+                        <strong>Sebastian:</strong> my daily routine
+                    </div>
+                    <div class="dialogue-box guillermo mb-3">
+                        <strong>Sebastian:</strong> First, I wake up at 6:40 a.m., have breakfast, and then head to school to study.
+                            I get home at 3:00 p.m., and then have lunch at 3:30 p.m.
+
+                            After that, at 4:00 p.m., I start doing my homework.
+                            At 6:00 p.m., I go to outdoor training and skate in the park.
+
+                            Next, I get home at 7:00 p.m., take a shower, and have my snack at 8:00 p.m.
+                            Finally, I continue with my homework for a while, have dinner at 10:00 p.m., and go to bed at 11:00 p.m.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer de la pagina -->
+    <footer class="text-center text-muted mt-4">
+        <small>Made with ❤️ for English Class | 2025 | SMEC</small>
+    </footer>
     <!-- Bootstrap JS (opcional para funcionalidades) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
