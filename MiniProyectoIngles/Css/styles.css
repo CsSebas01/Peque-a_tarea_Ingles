@@ -53,3 +53,45 @@ footer {
     margin-top: 2rem;
     font-size: 1rem;
 }
+
+    
+
+.alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #e3f2fd;
+    border-color: #90caf9;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+hr {
+    margin: 3rem auto;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-opacity-10 {
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
